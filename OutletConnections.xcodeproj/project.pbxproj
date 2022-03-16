@@ -15,6 +15,7 @@
 		B20F1B8727E293F4007B0946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B8527E293F4007B0946 /* LaunchScreen.storyboard */; };
 		B20F1B9D27E29595007B0946 /* OutletConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F1B9B27E29595007B0946 /* OutletConnectionsViewController.swift */; };
 		B20F1B9E27E29595007B0946 /* OutletConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B9C27E29595007B0946 /* OutletConnectionsViewController.xib */; };
+		B20F1BA027E296B3007B0946 /* OutletConnectionsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F1B9F27E296B3007B0946 /* OutletConnectionsViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		B20F1B9227E29417007B0946 /* OutletConnectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutletConnectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20F1B9B27E29595007B0946 /* OutletConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewController.swift; sourceTree = "<group>"; };
 		B20F1B9C27E29595007B0946 /* OutletConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletConnectionsViewController.xib; sourceTree = "<group>"; };
+		B20F1B9F27E296B3007B0946 /* OutletConnectionsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		B20F1B9327E29417007B0946 /* OutletConnectionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				B20F1B9F27E296B3007B0946 /* OutletConnectionsViewControllerTests.swift */,
 			);
 			path = OutletConnectionsTests;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 					};
 					B20F1B9127E29417007B0946 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = B20F1B7627E293F2007B0946;
 					};
 				};
@@ -213,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20F1BA027E296B3007B0946 /* OutletConnectionsViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,14 +427,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WTXG2G2BJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tech.diayansiat.OutletConnectionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutletConnections.app/OutletConnections";
@@ -440,10 +452,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WTXG2G2BJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tech.diayansiat.OutletConnectionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
