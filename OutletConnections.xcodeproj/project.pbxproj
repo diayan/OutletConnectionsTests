@@ -13,6 +13,8 @@
 		B20F1B8227E293F2007B0946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B8027E293F2007B0946 /* Main.storyboard */; };
 		B20F1B8427E293F4007B0946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B8327E293F4007B0946 /* Assets.xcassets */; };
 		B20F1B8727E293F4007B0946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B8527E293F4007B0946 /* LaunchScreen.storyboard */; };
+		B20F1B9D27E29595007B0946 /* OutletConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F1B9B27E29595007B0946 /* OutletConnectionsViewController.swift */; };
+		B20F1B9E27E29595007B0946 /* OutletConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20F1B9C27E29595007B0946 /* OutletConnectionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		B20F1B8627E293F4007B0946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20F1B8827E293F4007B0946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20F1B9227E29417007B0946 /* OutletConnectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutletConnectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20F1B9B27E29595007B0946 /* OutletConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewController.swift; sourceTree = "<group>"; };
+		B20F1B9C27E29595007B0946 /* OutletConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletConnectionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				B20F1B7A27E293F2007B0946 /* AppDelegate.swift */,
 				B20F1B7C27E293F2007B0946 /* SceneDelegate.swift */,
 				B20F1B7E27E293F2007B0946 /* ViewController.swift */,
+				B20F1B9B27E29595007B0946 /* OutletConnectionsViewController.swift */,
+				B20F1B9C27E29595007B0946 /* OutletConnectionsViewController.xib */,
 				B20F1B8027E293F2007B0946 /* Main.storyboard */,
 				B20F1B8327E293F4007B0946 /* Assets.xcassets */,
 				B20F1B8527E293F4007B0946 /* LaunchScreen.storyboard */,
@@ -178,6 +184,7 @@
 				B20F1B8727E293F4007B0946 /* LaunchScreen.storyboard in Resources */,
 				B20F1B8427E293F4007B0946 /* Assets.xcassets in Resources */,
 				B20F1B8227E293F2007B0946 /* Main.storyboard in Resources */,
+				B20F1B9E27E29595007B0946 /* OutletConnectionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +205,7 @@
 				B20F1B7F27E293F2007B0946 /* ViewController.swift in Sources */,
 				B20F1B7B27E293F2007B0946 /* AppDelegate.swift in Sources */,
 				B20F1B7D27E293F2007B0946 /* SceneDelegate.swift in Sources */,
+				B20F1B9D27E29595007B0946 /* OutletConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
