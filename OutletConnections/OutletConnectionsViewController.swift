@@ -9,8 +9,8 @@ import UIKit
 
 class OutletConnectionsViewController: UIViewController {
 
-    @IBOutlet private var label: UILabel!
-    @IBOutlet private var button: UIButton!
+    @IBOutlet private(set) var label: UILabel!
+    @IBOutlet private(set) var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

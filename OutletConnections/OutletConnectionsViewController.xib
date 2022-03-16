@@ -11,7 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OutletConnectionsViewController" customModule="OutletConnections" customModuleProvider="target">
             <connections>
                 <outlet property="button" destination="5X7-Tq-JGB" id="J88-Ik-XcF"/>
-                <outlet property="label" destination="leY-jo-qbB" id="MH8-ZZ-uei"/>
+                <outlet property="label" destination="leY-jo-qbB" id="9Sn-Bn-3Xg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
